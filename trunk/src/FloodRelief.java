@@ -1,4 +1,4 @@
-public class FloodRelief_Kris {
+public class FloodRelief {
 	private char[][] myGrid;
 	private int myRows, myCols, minRows = -1, minCols = -1;
 	private char min;
@@ -69,7 +69,7 @@ public class FloodRelief_Kris {
 				 "caaaaaaaaac",
 				 "ccccccccccc"
 		};
-		FloodRelief_Kris ss = new FloodRelief_Kris();
+		FloodRelief ss = new FloodRelief();
 		System.out.println(ss.minimumPumps(args1));
 	}
 }
